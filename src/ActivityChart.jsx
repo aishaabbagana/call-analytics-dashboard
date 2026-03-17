@@ -29,7 +29,7 @@ function ActivityChart({ data }) {
       <h2 style={{ color: 'white', fontSize: 'clamp(10px, 1.1vw, 14px)', fontWeight: '600', textAlign: 'center', margin: '0 0 2px 0', flexShrink: 0 }}>Call Activity</h2>
       <div style={{ flex: 1, minHeight: 0 }}>
         <ResponsiveContainer width="100%" height="100%">
-          <LineChart data={hourlyCounts} margin={{ top: 4, right: 10, left: 4, bottom: 28 }}>
+          <LineChart data={hourlyCounts} margin={{ top: 4, right: 10, left: 16, bottom: 28 }}>
             <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.1)" />
             <XAxis
               dataKey="label"
@@ -44,8 +44,8 @@ function ActivityChart({ data }) {
               stroke="rgba(255,255,255,0.7)"
               tick={{ fill: 'rgba(255,255,255,0.7)', fontSize: 9 }}
               allowDecimals={false}
-              width={24}
-              label={{ value: 'Calls', angle: -90, position: 'insideLeft', offset: 8, fill: 'rgba(255,255,255,0.5)', fontSize: 9, textAnchor: 'middle' }}
+              width={28}
+              label={{ value: 'Calls', angle: -90, position: 'insideLeft', offset: -8, fill: 'rgba(255,255,255,0.5)', fontSize: 9, textAnchor: 'middle' }}
             />
             <Tooltip content={<CustomTooltip />} cursor={{ stroke: 'rgba(134,239,172,0.3)', strokeWidth: 1 }} />
             <Line type="monotone" dataKey="calls" stroke="#22c55e" strokeWidth={2} dot={{ fill: '#22c55e', r: 2, strokeWidth: 0 }} activeDot={{ fill: '#86efac', r: 4, strokeWidth: 0 }} />

@@ -1,12 +1,12 @@
 # Call Analytics Dashboard
 
-A professional, real-time Call Data Record (CDR) analytics dashboard built with React, TailwindCSS, shadcn/ui, and Recharts. Visualises telecom call data across multiple interactive charts and a call logs table within a single, scroll-free screen. Built as part of the **London Success Academy** Software Development Internship Assignment.
+A professional, real-time Call Data Record (CDR) analytics dashboard built with React, TailwindCSS, shadcn/ui, and Recharts. Visualises telecom call data across multiple interactive charts and a recent call logs table within a single, scroll-free screen. Built as part of the **London Success Academy** Software Development Internship Assignment.
 
 ---
 
 ## Live Demo
 
-[View Deployed Dashboard](#)
+[View Deployed Dashboard](https://call-analytics-dashboard-puce.vercel.app/)
 
 ---
 
