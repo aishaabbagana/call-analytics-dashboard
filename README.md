@@ -12,7 +12,12 @@ A professional, real-time Call Data Record (CDR) analytics dashboard built with 
 
 ## Screenshots
 
-Screenshots here
+![Dashboard](screenshots/dashboard.png)
+![Duration Chart](screenshots/duration.png)
+![Cost Chart](screenshots/cost.png)
+![Call Activity](screenshots/activity.png)
+![Calls by City](screenshots/city.png)
+![Call Logs](screenshots/logs.png)
 
 ---
 
